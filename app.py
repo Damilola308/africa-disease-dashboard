@@ -124,6 +124,7 @@ app = dash.Dash(
     title="Africa CDC Disease Surveillance Dashboard",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
+server = app.server
 
 app.layout = html.Div(
     style={"background": DARK, "minHeight": "100vh", "fontFamily": "'Segoe UI', Arial, sans-serif", "color": TEXT_MAIN},
